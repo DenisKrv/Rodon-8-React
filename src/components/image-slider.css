@@ -1,0 +1,236 @@
+.image-slider-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.image-slider-slide1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.image-slider-image {
+  width: 100%;
+  max-height: 50vh;
+  object-fit: cover;
+}
+.image-slider-left-button {
+  flex: 0 0 auto;
+  left: 3%;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  background-color: #e8e5d4;
+}
+.image-slider-left-button:hover {
+  background-color: #dad6bf;
+}
+.image-slider-icon {
+  top: 0px;
+  fill: #858585;
+  left: 0px;
+  right: 0px;
+  width: 38px;
+  bottom: 0px;
+  height: 38px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+}
+.image-slider-right-button {
+  top: 225px;
+  flex: 0 0 auto;
+  right: 3%;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  background-color: #e8e5d4;
+}
+.image-slider-right-button:hover {
+  background-color: #dad6bf;
+}
+.image-slider-icon02 {
+  top: 0px;
+  fill: #858585;
+  left: 0px;
+  right: 0px;
+  width: 38px;
+  bottom: 0px;
+  height: 38px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+}
+.image-slider-slide2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.image-slider-image1 {
+  width: 100%;
+  max-height: 50vh;
+  object-fit: cover;
+}
+.image-slider-left-button1 {
+  flex: 0 0 auto;
+  left: 3%;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  background-color: #e8e5d4;
+}
+.image-slider-left-button1:hover {
+  background-color: #dad6bf;
+}
+.image-slider-icon04 {
+  top: 0px;
+  fill: #858585;
+  left: 0px;
+  right: 0px;
+  width: 38px;
+  bottom: 0px;
+  height: 38px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+}
+.image-slider-right-button1 {
+  top: 225px;
+  flex: 0 0 auto;
+  right: 3%;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  background-color: #e8e5d4;
+}
+.image-slider-right-button1:hover {
+  background-color: #dad6bf;
+}
+.image-slider-icon06 {
+  top: 0px;
+  fill: #858585;
+  left: 0px;
+  right: 0px;
+  width: 38px;
+  bottom: 0px;
+  height: 38px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+}
+.image-slider-slide3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.image-slider-image2 {
+  width: 100%;
+  max-height: 50vh;
+  object-fit: cover;
+}
+.image-slider-left-button2 {
+  flex: 0 0 auto;
+  left: 3%;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  background-color: #e8e5d4;
+}
+.image-slider-left-button2:hover {
+  background-color: #dad6bf;
+}
+.image-slider-icon08 {
+  top: 0px;
+  fill: #858585;
+  left: 0px;
+  right: 0px;
+  width: 38px;
+  bottom: 0px;
+  height: 38px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+}
+.image-slider-right-button2 {
+  top: 225px;
+  flex: 0 0 auto;
+  right: 3%;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  background-color: #e8e5d4;
+}
+.image-slider-right-button2:hover {
+  background-color: #dad6bf;
+}
+.image-slider-icon10 {
+  top: 0px;
+  fill: #858585;
+  left: 0px;
+  right: 0px;
+  width: 38px;
+  bottom: 0px;
+  height: 38px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+}
+.image-slider-root-class-name {
+  width: auto;
+  min-width: auto;
+}
+.image-slider-root-class-name1 {
+  width: auto;
+  min-width: auto;
+}

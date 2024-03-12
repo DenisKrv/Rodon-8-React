@@ -1,0 +1,323 @@
+.navbar-rodon8-navbar-rodon8 {
+  width: 100%;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.navbar-rodon8-navbar-interactive {
+  align-self: center;
+  background-color: transparent;
+}
+.navbar-rodon8-logo {
+  width: 200px;
+  object-fit: cover;
+}
+.navbar-rodon8-burger-menu {
+  display: none;
+}
+.navbar-rodon8-burger-menu1 {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+  display: none;
+}
+.navbar-rodon8-mobile-menu1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.navbar-rodon8-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbar-rodon8-top {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.navbar-rodon8-logo1 {
+  width: 200px;
+  object-fit: cover;
+}
+.navbar-rodon8-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-rodon8-icon1 {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.navbar-rodon8-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbar-rodon8-home {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-rodon8-events {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-rodon8-description {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navbar-rodon8-property {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-rodon8-contact {
+  font-size: large;
+  align-self: center;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.navbar-rodon8-icon-group {
+  display: none;
+}
+.navbar-rodon8-icon3 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-rodon8-icon5 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-rodon8-icon7 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.navbar-rodon8-desktop-menu {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar-rodon8-links1 {
+  flex: 1;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar-rodon8-home1 {
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-weight: 500;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.navbar-rodon8-home1:hover {
+  font-size: 23px;
+}
+.navbar-rodon8-events1 {
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-weight: 500;
+  line-height: 1.15;
+  margin-left: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.navbar-rodon8-events1:hover {
+  font-size: 23px;
+}
+.navbar-rodon8-description1 {
+  font-size: 20px;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: var(--dl-space-space-unit);
+}
+.navbar-rodon8-description1:hover {
+  font-size: 23px;
+}
+.navbar-rodon8-property1 {
+  font-size: 20px;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-rodon8-property1:hover {
+  font-size: 23px;
+}
+.navbar-rodon8-contact1 {
+  font-size: 20px;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-rodon8-contact1:hover {
+  font-size: 23px;
+}
+@media(max-width: 991px) {
+  .navbar-rodon8-navbar-interactive {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .navbar-rodon8-burger-menu1 {
+    display: none;
+  }
+  .navbar-rodon8-home1 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-rodon8-events1 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-rodon8-description1 {
+    text-align: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-rodon8-property1 {
+    text-align: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-rodon8-contact1 {
+    text-align: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 767px) {
+  .navbar-rodon8-navbar-interactive {
+    position: relative;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .navbar-rodon8-burger-menu {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-rodon8-burger-menu1 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    display: flex;
+  }
+  .navbar-rodon8-mobile-menu1 {
+    top: 24px;
+    right: 32px;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  .navbar-rodon8-top {
+    position: relative;
+    align-self: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navbar-rodon8-close-menu {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    align-self: center;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .navbar-rodon8-icon1 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .navbar-rodon8-links {
+    align-self: center;
+  }
+  .navbar-rodon8-home {
+    align-self: center;
+  }
+  .navbar-rodon8-events {
+    align-self: center;
+  }
+  .navbar-rodon8-description {
+    align-self: center;
+  }
+  .navbar-rodon8-property {
+    align-self: center;
+  }
+  .navbar-rodon8-contact {
+    align-self: center;
+  }
+  .navbar-rodon8-desktop-menu {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-rodon8-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .navbar-rodon8-mobile-menu1 {
+    padding: 16px;
+  }
+  .navbar-rodon8-icon1 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+}

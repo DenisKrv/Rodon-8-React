@@ -1,0 +1,52 @@
+.rodon8-main-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.rodon8-main-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+}
+.rodon8-main-container2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.rodon8-main-container3 {
+  flex: 0 0 auto;
+  width: 803px;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #8c8080;
+}
+.rodon8-main-text {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 1.4;
+}
+@media(max-width: 991px) {
+  .rodon8-main-container3 {
+    margin-top: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .rodon8-main-container2 {
+    height: auto;
+  }
+}

@@ -1,0 +1,23 @@
+.rodon8-footer-rodon8-footer {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  align-items: flex-end;
+  padding-top: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: #8c8080;
+}
+.rodon8-footer-text {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 1.4;
+}
+@media(max-width: 991px) {
+  .rodon8-footer-rodon8-footer {
+    margin-top: 0px;
+  }
+}
